@@ -23,7 +23,7 @@ class _Widget_animatedalignState extends State<Widget_animatedalign> {
       child: Center(
         child: Container(
           width: double.infinity,
-          height: double.infinity,
+          height: 250,
           color: Colors.blueGrey,
           child: AnimatedAlign(
             alignment: selected ? Alignment.topRight : Alignment.bottomLeft,

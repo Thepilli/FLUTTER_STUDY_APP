@@ -10,20 +10,26 @@ import 'package:flutter_study_app/lib/widgets/widget_stack.dart';
 import 'package:flutter_study_app/lib/widgets/widget_switch.dart';
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  MyApp({super.key});
+  var page = Widget_animatedalign();
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Widget_animatedalign(),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Test of ' + page.toString()),
+        ),
+        body: Widget_animatedalign(),
+      ),
     );
   }
 }
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
