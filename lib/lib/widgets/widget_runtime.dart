@@ -6,6 +6,7 @@ import 'package:flutter_study_app/lib/widgets/widget_rawchip.dart';
 import 'package:flutter_study_app/lib/widgets/widget_scafold.dart';
 import 'package:flutter_study_app/lib/widgets/widget_spacer.dart';
 import 'package:flutter_study_app/lib/widgets/widget_stack.dart';
+import 'package:flutter_study_app/lib/widgets/widget_switch.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Widget_stack(),
+      home: Widget_switch(),
     );
   }
 }
