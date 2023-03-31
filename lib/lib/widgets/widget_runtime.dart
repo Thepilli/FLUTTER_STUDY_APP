@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_study_app/lib/widgets/widget_carousel.dart';
+import 'package:flutter_study_app/lib/widgets/widget_custom_carousel.dart';
 import 'package:flutter_study_app/lib/widgets/widget_placeholder.dart';
 import 'package:flutter_study_app/lib/widgets/widget_popupmenu.dart';
 import 'package:flutter_study_app/lib/widgets/widget_rawchip.dart';
