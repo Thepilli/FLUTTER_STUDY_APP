@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_study_app/lib/widgets/widget_animatedalign.dart';
 import 'package:flutter_study_app/lib/widgets/widget_custom_carousel.dart';
 import 'package:flutter_study_app/lib/widgets/widget_placeholder.dart';
 import 'package:flutter_study_app/lib/widgets/widget_popupmenu.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Widget_switch(),
+      home: Widget_animatedalign(),
     );
   }
 }

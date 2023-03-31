@@ -16,7 +16,7 @@ class Widget_stack extends StatelessWidget {
           Center(
             child: Image.asset(
               'assets/images/physics.png',
-              width: 110,
+              width: 300,
             ),
           )
         ],
