@@ -5,6 +5,8 @@ import 'package:flutter_study_app/screens/splash/splash_screen.dart';
 
 class AppRoutes {
   static List<GetPage> routes() => [
-        GetPage(name: '/', page: () => AppIntroductionScreen()),
+        GetPage(
+            name: '/', page: () => SplashScreen()), // '/' is the default route
+        GetPage(name: '/introduction', page: () => AppIntroductionScreen()),
       ];
 }
